@@ -1,0 +1,37 @@
+body{
+    background: linear-gradient(#3b3838, #232324);
+}
+
+form{
+
+    align-items: center;
+    padding: 6em;
+}
+
+#input{
+    width: 30em;
+    border: solid 3px black;
+}
+
+.container{
+    position: absolute; /* postulat de départ */
+    top: 50%; left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+}
+
+#boutton{
+    width: 10em;
+    align-self: center;
+    text-align: center;
+    margin: auto 0;
+}
+
+h1{
+    text-align: center;
+    margin-top: 6em;
+    color: white;
+    
+}
+p{
+    color: white;
+}
